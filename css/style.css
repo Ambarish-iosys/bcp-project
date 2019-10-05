@@ -1029,7 +1029,7 @@ font-family: Montserrat;
  }
  .vedio-banner-content
  {
-  left: 16%;
+  left: 13%;
  }
  .vedio-banner-content h2
  {
@@ -1052,7 +1052,7 @@ font-family: Montserrat;
  }
  .stats-content h4
  {
-   font-size: 14px;
+   font-size: 16px;
    /* padding-top:5px; */
  }
  .menu-bar
@@ -1090,7 +1090,7 @@ font-family: Montserrat;
  }
  .stats-content p 
  {
-  padding: 12px 15px;
+  padding: 10px 15px;
    font-size:10px;
  }
  .stats-content a 
