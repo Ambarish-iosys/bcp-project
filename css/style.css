@@ -231,6 +231,12 @@ body
     cursor: pointer;
 }
 
+.request-demo a:hover
+{
+  /* text-decoration: underline;
+  text-decoration-color: (--dark); */
+  text-decoration-line: underline;
+}
 /* login-desk */
 .login-desk
 {
@@ -394,7 +400,10 @@ font-family: Montserrat;
     position: absolute;
     top: 37%;
     color: #ffffff;
-    left: 15%;
+    /* left: 15%; */
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     z-index: 1;
 }
 
@@ -438,7 +447,6 @@ font-family: Montserrat;
 {
     background: transparent;
     border: 1px solid #ffffff;
-    transition: 0.6s ease-in-out;
     cursor: pointer;
 }
 
@@ -685,7 +693,6 @@ font-family: Montserrat;
   {
     background: transparent;
     border: 1px solid #ffffff;
-    transition: 0.6s ease-in-out;
     cursor: pointer;
   }
 /* Footer section */
@@ -855,6 +862,10 @@ font-family: Montserrat;
 }
 @media screen and (max-width:1024px)
 {
+ .header-section
+ {
+   padding: 0 1.5rem;
+ } 
  .cert-logo
  {
     width: 100vw;
@@ -882,8 +893,11 @@ font-family: Montserrat;
 {
   .vedio-banner-content
   {
-    top: 36% !important;
-    left: 6%;
+     top: 36% !important;
+    /* left: 6%; */ */
+    left: 0;
+    right: 0;
+    margin: 0 auto;
   }
   .stats-content p 
   {
@@ -947,14 +961,10 @@ font-family: Montserrat;
     {
       font-size:40px;
     }
-    .vedio-banner-content
+    /* .vedio-banner-content
     {
       top:0%;
-    }
-    .vedio-banner-content button 
-    {
-      /* margin-bottom:50px; */
-    }
+    } */
     .menu-bar p 
     {
       font-size: 20px;
@@ -978,14 +988,14 @@ font-family: Montserrat;
     }
     .stats-content h4
     {
-      font-size:2em;
+      font-size:1.6rem;
     }
     .stats-content p 
     {
       max-width: 350px;
       width:100%;
       /* text-align:center; */
-      font-size:1.3em;
+      font-size:1.2em;
     }
     .footer-content
     {
@@ -1008,7 +1018,7 @@ font-family: Montserrat;
 }
 
 
-@media screen and (max-width: 425px) 
+@media screen and (min-width:320px) and (max-width: 425px) 
 {
  .header-section
  {  padding: 0 0.8em;   
@@ -1029,7 +1039,10 @@ font-family: Montserrat;
  }
  .vedio-banner-content
  {
-  left: 13%;
+  left: 0;
+  right:0;
+  margin-left: auto;
+  margin-right: auto;
  }
  .vedio-banner-content h2
  {
@@ -1052,7 +1065,7 @@ font-family: Montserrat;
  }
  .stats-content h4
  {
-   font-size: 16px;
+   font-size: 15px;
    /* padding-top:5px; */
  }
  .menu-bar
@@ -1153,7 +1166,7 @@ font-family: Montserrat;
  }
 }
 
-
+/* 
 @media screen and (max-width:320px)
 {
   
@@ -1180,4 +1193,4 @@ font-family: Montserrat;
   {
     font-size: 16px;
   }
-}
+} */
